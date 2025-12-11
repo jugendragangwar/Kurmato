@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
-import image1 from "../../../assets/image 1.jpg";
+import image1 from "../../../assets/image1.jpg";
 
 const resources = [
   {

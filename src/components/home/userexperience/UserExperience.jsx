@@ -1,9 +1,9 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
-import map from "../../../assets/group 22.png";
-import right from "../../../assets/vector (1).png";
+import map from "../../../assets/group22.png";
+import right from "../../../assets/vector_1.png";
 import user from "../../../assets/vector.png";
-import experience from "../../../assets/experience 1.png";
+import experience from "../../../assets/experience1.png";
 
 const UserExperience = () => {
   const { ref, inView } = useInView({

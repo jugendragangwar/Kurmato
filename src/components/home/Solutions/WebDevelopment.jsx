@@ -1,6 +1,6 @@
 import { CiCircleCheck } from "react-icons/ci";
 import Footer from "../Footer";
-import img from "../../../assets/front image(1).png";
+import img from "../../../assets/front_image1.png";
 import img1 from "../../../assets/web.png";
 import img2 from "../../../assets/web1.png";
 import img3 from "../../../assets/web2.png";

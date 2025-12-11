@@ -2,8 +2,8 @@ import React from "react";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import img from "../../../assets/digital.jpeg";
 import img1 from "../../../assets/email1.jpeg";
-import img2 from "../../../assets/email1 (2).jpeg";
-import img3 from "../../../assets/email2 (1).gif";
+import img2 from "../../../assets/email1_2.jpeg";
+import img3 from "../../../assets/email2_1.gif";
 import Footer from "../Footer";
 import AllServices from "../../AllServices";
 

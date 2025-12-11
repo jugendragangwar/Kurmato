@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import img4 from "../../assets/mobile app 3.png";
-import img3 from "../../assets/mobile app 2.png";
+import { useState, useEffect } from "react";
+import img4 from "../../assets/Mobileapp3.png";
+import img3 from "../../assets/Mobileapp2.png";
 import Platform from "../home/card/Platform.jsx";
 import DevelopmentCycle from "./developmentCycle/DevelopmentCycle";
 import CreativeWorks from "./createive works/CreativeWorks";
