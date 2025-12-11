@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    @keyframes slideInLeft {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+    @keyframes slideInRight {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+    .animate-scroll-up-visible {
+      opacity: 1;
+      animation: scroll-up 0.5s ease-out forwards;
+    }
+  
+    .animate-slide-in-left {
+      animation: slideInLeft 1.5s ease-out forwards;
+    }
+  
+    .animate-slide-in-right {
+      animation: slideInRight 1.5s ease-out forwards;
+    }
+
+  }
+
+
+
+  @layer utilities {
+    .dotted-bullet {
+      @apply relative pl-6  ;
+    }
+  
+    .dotted-bullet::before {
+      content: '';
+      @apply absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-orange-500 rounded-full;
+      border: 2px dotted orange;
+    }
+  
+    .slide{
+      @apply   absolute top-0 left-0 w-full h-full opacity-0 translate-x-[-50%] transition-all ease-in 
+  }
+  .current{
+      @apply  opacity-10 translate-x-0  
+  }
+    
+  }
+  
+  
+   
+
+  @keyframes fadeInLeft {
+    0% {
+      transform: translateX(-600px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(400);
+      opacity: 1;
+    }
+  }
+  .fadeInLeft {
+    animation: fadeInLeft 3s ease-in-out forwards;
+  }
+
+
+
+ 
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+User-agent: Googlebot
+Allow: /includes/
+Disallow: /admin/login
+Disallow: /private/
+
+Sitemap: https://www.kurmato.com/sitemaps.xml

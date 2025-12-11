@@ -1,0 +1,50 @@
+{
+    "resources": [
+      {
+        "title": "Software Development",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 1.jpg"
+      },
+      {
+        "title": "Website Development",
+        "link": "https://ark-labs.co.uk",
+        "imageUrl": "src/assets/image 2.png"
+      },
+      {
+        "title": "Exchange Solution",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 3.png"
+      },
+      {
+        "title": "Metaverse Development",
+        "link": "https://robkendal.co.uk",
+        "imageUrl": "src/assets/image 4.png"
+      },
+      {
+        "title": "Game Development",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 5.png"
+      },
+      {
+        "title": "NFT Development",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 6.png"
+      },
+      {
+        "title": "Super item number seven",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 4.png"
+      },
+      {
+        "title": "Super item number eight",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 3.png"
+      },
+      {
+        "title": "Super item number the last",
+        "link": "https://twitter.com/kendalmintcode",
+        "imageUrl": "src/assets/image 2.png"
+      }
+    ]
+  }
+  
