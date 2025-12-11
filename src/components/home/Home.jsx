@@ -6,7 +6,7 @@ import DevelopmentCycle from "./developmentCycle/DevelopmentCycle";
 import CreativeWorks from "./createive works/CreativeWorks";
 import UserExperience from "./userexperience/UserExperience";
 import Footer from "./Footer";
-import Catetory from "./paralllaxmotion/catetory.js";
+import Catetory from "./paralllaxmotion/catetory.jsx";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
