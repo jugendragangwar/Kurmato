@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import map from "../../../assets/Group_22.png";
 import right from "../../../assets/vector_1.png";
 import user from "../../../assets/Vector.png";
-import experience from "../../../assets/experience1.png";
+import experience from "../../../assets/Experience1.png";
 
 const UserExperience = () => {
   const { ref, inView } = useInView({
